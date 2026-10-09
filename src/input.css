@@ -100,8 +100,8 @@ em{font-style:italic}
 .hero{position:relative;padding:clamp(28px,5vw,72px) 0 clamp(56px,7vw,110px);overflow:hidden}
 .hero::before{content:"";position:absolute;width:900px;height:900px;right:-240px;top:-260px;background:radial-gradient(closest-side,rgba(217,174,95,.16),transparent 70%);pointer-events:none}
 .hero__grid{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,5vw,80px);align-items:center}
-.hero h1{margin:26px 0 26px}
-.hero h1 .script{display:block;font-size:.92em;line-height:1.05;margin-top:.04em}
+.hero .hero__title{margin:26px 0 26px}
+.hero .hero__title .script{display:block;font-size:.92em;line-height:1.05;margin-top:.04em}
 .hero__actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
 .rating{display:flex;align-items:center;gap:16px;margin-top:44px;padding-top:28px;border-top:1px solid var(--line-2);flex-wrap:wrap}
 .stars{display:flex;gap:3px;color:var(--gold-2)}.stars svg{width:16px;height:16px}

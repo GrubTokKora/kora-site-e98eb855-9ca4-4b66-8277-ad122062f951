@@ -6,7 +6,7 @@ address — and body copy are deliberately not recorded here; read the page itse
 title: Facials in Hartford, CT | Skin Journey by Vanessa
 purpose: Homepage for Facials by Vanessa CT (Skin Journey by Vanessa), a Downtown Hartford skin studio — treatments with prices, the virtual Complete Skin Journey Program, Vanessa's story, real studio clips, reviews, FAQ, journal and visit details.
 sections:
-- `#top` — hero with headline, intro, booking and virtual-consult buttons, Google rating
+- `#top` — hero: visually hidden SEO H1, visible headline 'Healthy skin is a journey. Begin yours in Hartford.' (a p.hero__title), intro, booking and virtual-consult buttons, Google rating
 - trust strip of five short credentials: Every skin tone, Eco-friendly, Virtual consults
 - `#paths-title` "Three ways to start your skin journey" — three treatment-category cards with starting prices linking to the menu: Signature Facials & Targeted Treatments, Clinical Peels & Skin Resurfacing, Virtual Skin Consultations & Routine Planning
 - `#treatments` "Clear prices. No surprises." — tabbed treatment menu (Facials / Peels & Resurfacing / Virtual) with price, duration and deposit per service, plus a Cherry pay-over-time note: HydraFacial with Serum, Deep Pore Cleansing Facial, Anti-Acne Facial Treatment, Anti-Acne Back Treatment, Men's Deluxe Facial, Teen Facial, Brightening Pigment Peel, Chemical Peel, Microdermabrasion, Dermaplaning, Complete Skin Journey Program, Virtual Skin Journey Consultation, Teen Virtual Consultation (14–18), Virtual Skin Journey Follow-up, Cherry
@@ -23,6 +23,7 @@ also: Treatment prices and durations appear both in the tabbed menu (#treatments
 also: Studio hours live in the hours table (#contact), in site.js (the HOURS object that drives the open/closed status) and in the JSON-LD openingHoursSpecification.
 also: Every Book button links to the Zoca booking platform rather than a page on this site, because booking is handled by Zoca.
 also: The open/closed status line is written by site.js from its own HOURS object, so an hours change must update site.js as well as the table.
+also: The page's only H1 is visually hidden (class sr) and holds the service keywords for search; the large visible hero headline is a p.hero__title, so edit that for on-screen wording and keep exactly one H1.
 
 ## 404.html → /404
 title: Page not found | Skin Journey by Vanessa
